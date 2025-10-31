@@ -5,6 +5,7 @@ class Singleton:
 
         if not self._instance:
             self._instance = super(Singleton, self).__new__(self)
+
         return self._instance
 
 
